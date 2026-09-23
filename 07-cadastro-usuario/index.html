@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+    <header id="inicio">
+        <h1>Cadastro de Usuário</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Página Principal</a></li>
+                <li><a href="#cadastro">Formulário de Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cadastro">
+            <h2>Formulário de Cadastro</h2>
+
+            <form action="#" method="post">
+                <p>
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome" required>
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="senha">Senha:</label><br>
+                    <input type="password" id="senha" name="senha" required>
+                </p>
+
+                <p>
+                    <label for="genero">Gênero:</label><br>
+                    <select id="genero" name="genero">
+                        <option value="">Selecione</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outro">Outro</option>
+                        <option value="nao-informar">Prefiro não informar</option>
+                    </select>
+                </p>
+
+                <fieldset>
+                    <legend>Interesses:</legend>
+
+                    <input type="checkbox" id="programacao" name="interesses" value="programacao">
+                    <label for="programacao">Programação</label><br>
+
+                    <input type="checkbox" id="design" name="interesses" value="ia">
+                    <label for="ia">IA</label><br>
+
+                    <input type="checkbox" id="musica" name="interesses" value="musica">
+                    <label for="musica">Música</label><br>
+
+                    <input type="checkbox" id="tecnologia" name="interesses" value="seila">
+                    <label for="seila">Sei la</label>
+                </fieldset>
+
+                <p>
+                    <label for="biografia">Biografia:</label><br>
+                    <textarea id="biografia" name="biografia" rows="6" cols="40"></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Bryan William</p>
+    </footer>
+</body>
+</html>
