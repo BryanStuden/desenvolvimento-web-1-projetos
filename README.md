@@ -1,33 +1,17 @@
-# Projetos de Desenvolvimento Web I — HTML
+# Desenvolvimento Web
 
-Este repositório reúne os **7 projetos finais** da atividade de Desenvolvimento Web I.
+Repositório com atividades práticas de desenvolvimento web usando HTML.
+
+## Como acessar
+
+Abra o arquivo no navegador e escolha uma atividade.
 
 ## Projetos
 
-1. [Apresentação Pessoal](./01-apresentacao-pessoal/)
-2. [Portfólio de Imagens](./02-portfolio-imagens/)
-3. [Página de Receitas](./03-pagina-receitas/)
-4. [Site Pessoal](./04-site-pessoal/)
-5. [Tabela de Notas](./05-tabela-notas/)
-6. [Roteiro de Viagem](./06-roteiro-viagem/)
-7. [Cadastro de Usuário](./07-cadastro-usuario/)
-
-## Página inicial
-
-Também existe um arquivo `index.html` na raiz com links para todos os projetos.
-
-## Estrutura
-
-```text
-projetos-html/
-├── index.html
-├── README.md
-├── 01-apresentacao-pessoal/
-├── 02-portfolio-imagens/
-│   └── img/
-├── 03-pagina-receitas/
-├── 04-site-pessoal/
-│   └── html/
-├── 05-tabela-notas/
-├── 06-roteiro-viagem/
-└── 07-cadastro-usuario/
+- [Atividade 1](01-apresentacao-pessoal/index.html)
+- [Atividade 2](02-portfolio-imagens/index.html)
+- [Atividade 3](03-pagina-receitas/index.html)
+- [Atividade 4](04-site-pessoal/index.html)
+- [Atividade 5](05-tabela-notas/index.html)
+- [Atividade 6](06-roteiro-viagem/index.html)
+- [Atividade 7](07-cadastro-usuario/index.html)
